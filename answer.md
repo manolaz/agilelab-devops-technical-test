@@ -1,4 +1,4 @@
-# answser
+# Tristan Nguyen's answsers
 ## Do you know systemd, SysVinit or Upstart?'
 They are all about linux system managers.
 For systemd,  I mainly use the "systemctl" command.
