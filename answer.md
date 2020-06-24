@@ -6,6 +6,8 @@ I didn't use SysVinit and Upstart.
 
 ## Do you know FHS? How to manage package compile?
 FHS is about he File System structure compositions of Linux based OS.
+On Debian/Ubuntu based OS, we can use SNAP, FLATPAK, APT for packaged compilation apps.(LInuxBrew is also a good options).
+On Fedora I use DNF and YUM.
 
 ## Should you clean trash in your server when change role?
 
@@ -17,11 +19,11 @@ Name lenght limits should be under 63 characters.
 
 ## How long uptime of your server? Do you update new version OS?
 The uptime for server will be about 48 Hours, restart scheduled on lowest traffic timeline.
-For the IoT project I have managed,the OS will be update regularly in 2 weeks.
+For the IoT project I have managed,the OS on server will be update regularly in 2 weeks.
 
 ## Do you use key or password for ssh, do you have policy for password?
-I use KEY for SSH.
-For password, the POlicy are setup with SHA256 encryption.
+I standarize use KEY for SSH .
+For password, the Policy applied is setup with SHA256 encryption, and the it shoud be above 16 characters lenght.
 
 ## Do you use firewall on your server?
 On Ubuntu, I have used UFW.
@@ -31,13 +33,13 @@ Heartbleed, Shellshock and POODLE are OpenSSL related bugs for linux based OS.
 We should take care about the updating for SSL and TLS version of the web servers.
 
 ## Do you use redis or mongod? How to authentication them? What user of process mongod or redis?
-
+Yes I have worked with redis and mongod.
 ### For the AUTHEN:
-+ "redis" command:  AUTH  [user] [password]
++ "redis" command:  AUTH [user] [password]
 + "mongod" command: db.auth((user), (password))
-### For the User:
-+ "mongodb" is user of mongod
-+ ""
+### For the User of the process:
++ special "mongodb" is user of mongod
++ (curent-system-user) is Redis user
 
 ## How do you deploy code to server? Do you use git pull for deployment?
 I am using GIT for deployment on dev/staging/product.
