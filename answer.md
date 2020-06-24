@@ -7,7 +7,7 @@ I didn't use SysVinit and Upstart.
 ## Do you know FHS? How to manage package compile?
 FHS is about he File System structure compositions of Linux based OS.
 On Debian/Ubuntu based OS, we can use SNAP, FLATPAK, APT for packaged compilation apps.(LInuxBrew is also a good options).
-On Fedora I use DNF and YUM.
+On REDHAT/Fedora I use DNF and YUM.
 
 ## Should you clean trash in your server when change role?
 It's a good pratice for cleaning the TMP/ folder , caches related things, when changing user role.
