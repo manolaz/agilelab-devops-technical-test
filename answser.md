@@ -5,28 +5,34 @@ For systemd,  I mainly use the "systemctl" command.
 I didn't use SysVinit and Upstart.
 
 ## Do you know FHS? How to manage package compile?
+FHS is about he File System structure compositions of Linux based OS.
 
 ## Should you clean trash in your server when change role?
 
+
 ## Do you have server naming schema? What about hostname of you server?
-YES, I do the naming schema for server, it wil base on the [PRODUCTNAME]-[COMPONENT]-[ENVIRONMENT]-[Order]
+YES, I do the naming schema for server, it wil base on the [PRODUCT]-[COMPONENT]-[ENVIRONMENT]-[Numbering]
+For hostname naming convention, I will use (Service / Product) name for the hostname.
+Name lenght limits should be under 36 characters.
 
 ## How long uptime of your server? Do you update new version OS?
 The uptime for server will be about 48 Hours, restart scheduled on lowest traffic timeline.
-Abot New version OS will be update regularly in 2 weeks.
+For the IoT project I have managed,the OS will be update regularly in 2 weeks.
 
 ## Do you use key or password for ssh, do you have policy for password?
 I use KEY for SSH.
-For password, the POlicy are setup for
+For password, the POlicy are setup for 
 
 ## Do you use firewall on your server?
-On Ubuntu, I have used UFW. 
+On Ubuntu, I have used UFW.
 
 ## Do you know Heartbleed, Shellshock and POODLE?
-No, I didn't  use them yet.
+Heartbleed, Shellshock and POODLE are OpenSSL related bugs for linux based OS.
+We should take care about the updating for SSL and TLS version of the servers.
 
 ## Do you use redis or mongod? How to authentication them? What user of process mongod or redis?
 
 
 ## How do you deploy code to server? Do you use git pull for deployment?
-I am using GIT for deployment.
+I am using GIT for deployment on dev/staging/product.
+Yes, I used "GIT PULL" for deployment.
