@@ -45,3 +45,4 @@ Yes I have worked with redis and mongod.
 ## How do you deploy code to server? Do you use git pull for deployment?
 I am using GIT for deployment on dev/staging/product.
 Yes, I used "GIT PULL" for deployment, but found out today that is not very good pratice.
+It good if we which to use the "GIT SUBMODULE UPDATE" instead when having GIt with Submodules.
