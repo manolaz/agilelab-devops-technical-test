@@ -32,6 +32,12 @@ We should take care about the updating for SSL and TLS version of the web server
 
 ## Do you use redis or mongod? How to authentication them? What user of process mongod or redis?
 
+### For the AUTHEN:
++ "redis" command:  AUTH  [user] [password]
++ "mongod" command: db.auth((user), (password))
+### For the User:
++ "mongodb" is user of mongod
++ ""
 
 ## How do you deploy code to server? Do you use git pull for deployment?
 I am using GIT for deployment on dev/staging/product.
