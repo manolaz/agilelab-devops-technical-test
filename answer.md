@@ -10,7 +10,8 @@ On Debian/Ubuntu based OS, we can use SNAP, FLATPAK, APT for packaged compilatio
 On Fedora I use DNF and YUM.
 
 ## Should you clean trash in your server when change role?
-
+It's a good pratice for cleaning the TMP/ folder , caches related things, when changing user role.
+But I dont thing emptying trash Bin could help us to secure anythings.
 
 ## Do you have server naming schema? What about hostname of you server?
 YES, I do the naming schema for server, it wil base on the [PRODUCT]-[COMPONENT]-[ENVIRONMENT]-[Numbering]
