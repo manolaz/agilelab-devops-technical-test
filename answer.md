@@ -5,8 +5,8 @@ For systemd,  I mainly use the "systemctl" command.
 I didn't use SysVinit and Upstart.
 
 ## Do you know FHS? How to manage package compile?
-FHS is about he File System structure compositions of Linux based OS.
-On Debian/Ubuntu based OS, we can use SNAP, FLATPAK, APT for packaged compilation apps.(LInuxBrew is also a good options).
++ FHS is about he File System structure compositions of Linux based OS.
++ For packaged compilation apps , on Debian/Ubuntu based OS, we can use SNAP, FLATPAK, APT.(LInuxBrew is also a good options).
 On REDHAT/Fedora I use DNF and YUM.
 
 ## Should you clean trash in your server when change role?
